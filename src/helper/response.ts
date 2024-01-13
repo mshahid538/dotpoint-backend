@@ -48,6 +48,8 @@ export const responseMessage = {
     encryptionError: "Please pass a valid decryption string!",
     accessDenied: "Access denied",
     invalidToken: "Invalid token",
+    couponApplied: "Coupon code applied successfully",
+    usedCoupon: "Coupon code used before",
     emailNotRegister: "Email is not registered!",
     customMessage: (message: string): any => { return `${message[0].toUpperCase() + message.slice(1).toLowerCase()}` },
     invalidId: (message: string): any => { return `invalid ${message}!` },

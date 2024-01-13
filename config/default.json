@@ -1,5 +1,5 @@
 {
-  "db_url": "mongodb+srv://mukund:5jlh7g1NNFL0g7bU@dotpoint-nodejs.yp5xyre.mongodb.net/dot_point",
+  "db_url": "mongodb://127.0.0.1:27017/dot_point",
   "redis_url": "redis://nodejs:Liberator123@@redis-17904.c301.ap-south-1-1.ec2.cloud.redislabs.com:17904",
   "jwt_token_secret": "seCr3t-Properties^&@-enc-kEY",
   "access_token_duration": 86400000,
